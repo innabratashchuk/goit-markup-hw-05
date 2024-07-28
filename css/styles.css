@@ -712,7 +712,7 @@ input::placeholder {
     color: #fff;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     margin-top: 24px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
