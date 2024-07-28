@@ -560,7 +560,7 @@ button {
 }
 
     
-.form-close {
+.modal-close {
     position: absolute;
     top: 24px;
     right: 24px;
