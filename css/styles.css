@@ -453,17 +453,21 @@ transform: translateY(0);
 
 }
 
-.footer-form {}
-
-.footer-label {
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #fff;
-        margin-bottom: 16px;
+.footer-form {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
 }
 
+.footer-label {
+    
+}
+.label-text {font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;}
 .footer-input {
     display: flex;
     align-items: center;
@@ -478,8 +482,12 @@ transform: translateY(0);
         height: 40px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         margin-top: 16px;
-        padding: 8px 16px;
+        padding-left: 16px;
         background-color: transparent;
+        line-height: 2;
+}
+.form-input::placeholder {
+    color: #ffffff
 }
 
 .footer-button {
@@ -488,16 +496,19 @@ transform: translateY(0);
         justify-content: center;
         flex-direction: row;
         gap: 16px;
-
+        cursor: pointer;
+        border: none;
+        color: #ffffff;
         border-radius: 4px;
             padding: 8px 24px;
-            width: 165px;
+            min-width: 165px;
             height: 40px;
             background: #4d5ae5;
 }
 
 .footer-form-icon {
     fill: #fff;
+    margin-left: 16px;
 }
 /*Modal-overlay*/
 
